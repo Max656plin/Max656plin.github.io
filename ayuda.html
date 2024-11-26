@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facciones</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="layout">
+        <nav class="menu">
+            <ul class="menu_list">
+                <li><a href="index.html">Menú Principal</a></li>
+                <li><a href="facciones.html">Facciones</a></li>
+                <li><a href="puntos_claves.html">Puntos Importantes En la Historia</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones Para Empezar</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+
+        <div class="help">
+            <main class="container-title">
+                <h1 class="title title-background">¿Cual es el error?</h1>
+                <div class="help_content">
+                    <!-- Formulario básico/ for = relación con id -->
+                    <form action="#" method="post" class="help_content_form">
+                        <div class="help_content_form_field">
+                            <label for="correo">Ingresar correo:</label> 
+                            <input class="form-input" type="email" id="correo" name="correo" required>
+                        </div>
+                        <div class="help_content_form_field">
+                            <label for="problema">Correción:</label>
+                            <textarea class="form-input" id="problema" name="problema" rows="10" cols="25" required></textarea>
+                        </div>
+                        <div class="help_content_form_field">
+                            <label for="leal">¿Eres leal al Emperador?</label>
+                            <input class="form-checkbox" type="checkbox" id="leal" name="leal">
+                        </div>
+                        <div class="help_content_form_field">
+                            <label for="fecha">Cuando lo han cambiado?:</label>
+                            <input class="form-input" type="date" id="fecha" name="fecha" required>
+                        </div>
+                        <div class="help_content_form_field">
+                            <label for="prioridad">Que punto es?(1-12):</label>
+                            <input class="form-input" type="number" id="prioridad" name="prioridad" min="1" max="12">
+                        </div>
+                        <div class="help_content_form_field">
+                            <label for="color">Si es un capitulo indique el color:</label>
+                            <input class="form-input" type="color" id="color" name="color">
+                        </div>
+                        <div class="help_content_form_field-buttons">
+                            <input class="form-button" type="reset" value="Limpiar">
+                            <input class="form-button form-button-accent" type="submit" value="Enviando mensaje psíquico">
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <p>Aprende y disfruta de 40 años de historia <br>&copy;2024 InfoHammer. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
