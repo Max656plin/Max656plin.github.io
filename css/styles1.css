@@ -338,6 +338,7 @@ body /*Etiqueta body*/
     overflow: hidden;
     box-sizing: border-box;
     max-width: 100%;
+    font-family: Georgia, serif;
 }
 
 .factions_content 
