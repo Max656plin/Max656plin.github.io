@@ -338,7 +338,6 @@ body /*Etiqueta body*/
     overflow: hidden;
     box-sizing: border-box;
     max-width: 100%;
-    font-family: Georgia, serif;
 }
 
 .factions_content 
@@ -347,6 +346,7 @@ body /*Etiqueta body*/
     overflow: scroll;
     margin-bottom: 2rem;
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 
 .factions_table 
