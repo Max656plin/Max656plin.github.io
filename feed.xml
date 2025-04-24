@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>InfoHammer</title>
         <link>https://max656plin.github.io/</link>
         <description>Ultimas modificaciones</description>
-        <language>es</language> 
+        <language>es</language>
         <atom:link href="https://max656plin.github.io/feed.xml" rel="self" type="application/rss+xml" />
-
         <item>
             <title>Nuevos puntos</title>
             <link>https://max656plin.github.io/puntos_claves.html</link>
@@ -14,5 +13,4 @@
             <guid isPermaLink="true">https://max656plin.github.io/puntos_claves.html</guid>
         </item>
     </channel>
-  
 </rss>
