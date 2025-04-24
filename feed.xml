@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>InfoHammer</title>
+        <link>https://max656plin.github.io/</link>
+        <description>Ultimas modificaciones</description>
+        <language>es</language> 
+
+        <item>
+            <title>Nuevos puntos</title>
+            <link>https://max656plin.github.io/puntos_claves.html</link>
+            <description>Puntos recientes en la historia</description>
+        </item>
+    </channel>
+  
+</rss>
